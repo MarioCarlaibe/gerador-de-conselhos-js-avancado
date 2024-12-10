@@ -1,10 +1,6 @@
-// Pegar o elemento de  botão para ser adicionado o evento de clique nele.
 const clicarNoBotao = document.querySelector('.botao')
-// Pegar o elemento de id do conselho
 const contador = document.querySelector('.contador')
-// Pegar o elemento de descrição do conselho
 const conselho = document.querySelector('.conselho')
-// Após conseguirmos os elementos do html, é necessário a criação da função responsável por pegar os dados da API. A melhor forma de se consumir a api é usando async await. Caso não tenha visto a aula, sugiro que assista novamente. Nas referências ficará um link com exemplos.
 
 async function gerarOConselhoAleatorio() {
     try {
