@@ -1,0 +1,11 @@
+@media (max-width: 532px) {
+    .cartao .conselho{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 455px) {
+    .cartao .conselho{
+        font-size: 22px;
+    }
+}
