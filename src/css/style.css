@@ -13,11 +13,11 @@ body{
     flex-direction: column;
     align-items: center;
     width: 540px;
-    height: 333px;
+    min-height: 333px;
     border-radius: 10px;
     background-color: hsl(217, 19%, 24%);
     padding: 20px;
-    
+    justify-content: space-between;
 }
 
 .cartao .contador{
@@ -37,15 +37,11 @@ body{
 
 .cartao picture img{
     width: 100%;
-    margin-top: 18px;
+    margin: 18px 0 30px;
 }
 
 .cartao .botao{
-    /* transform: translateY(95%); */
-    /* position: absolute;
-    bottom: 277px; */
-    position: fixed;
-    margin-top: 284px;
+    margin-bottom: -52px;
     width: 62px;
     height: 62px;
     border: none;
