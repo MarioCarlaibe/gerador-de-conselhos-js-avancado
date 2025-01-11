@@ -52,5 +52,5 @@ body{
 .cartao .botao:hover{
     color: #53ffab;
     cursor: pointer;
-    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+    box-shadow: 0 0 15px hsl(150, 100%, 66%);
 }
